@@ -14,7 +14,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ```{r cars}
-summary(cars)
+
+require() # paquete 
+
+source("functions.R") # ver cómo escribir esta dirección al archivo con las funciones, aunque cuando está instalado el paquete ya estaría, creo
+
+epifauna <- read.csv()
+
+str()
+
 ```
 
 ## Including Plots
